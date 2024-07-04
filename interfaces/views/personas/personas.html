@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personas</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/interfaces/index.html">Menu Principal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+        
+              <li class="nav-item">
+                <a class="nav-link" href="/interfaces/views/personas/personas.html">Personas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/interfaces/views/ciudades/ciudades.html">Ciudades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/interfaces/views/deportes/deportes.html">Deportes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/interfaces/views/cargos/cargos.html">Cargos</a>
+              </li>
+        
+            </ul>
+          </div>
+        </div>
+    </nav>
+  <div class="container mt-5">
+    <h2>Personas</h2>
+    <form>
+      <div class="form-row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="selectElement">Tipo de documento</label>
+            <select id="selectElement" class="form-control">
+              <option selected>Selecciona</option>
+              <option>C.C</option>
+              <option>Cedula Extranjeria</option>
+              <option>Pasaporte</option>
+              <option>Tarjeta de identidad</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="inputElement"></label>
+            <input type="text" class="form-control" id="inputElement" placeholder="numero de documento">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3"> 
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="inputElement2"></label>
+            <input type="text" class="form-control" id="inputElement2" placeholder="Nombres">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="inputElement3"></label>
+            <input type="text" class="form-control" id="inputElement3" placeholder="Apellidos">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3"> 
+        <div class="col-12">
+          <div class="form-group">
+            <label for="inputLong"></label>
+            <input type="text" class="form-control" id="inputLong" placeholder="dirección">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3"> 
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="inputElement2"></label>
+            <input type="text" class="form-control" id="inputElement2" placeholder="Telefono">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="inputElement3">fecha de nacimiento</label>
+            <input type="date" class="form-control" id="inputElement3" placeholder="Enter text">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3"> 
+        <div class="col-md-6">
+          <button type="button" class="btn btn-primary w-100">Cancelar</button>
+        </div>
+        <div class="col-md-6">
+          <button type="submit" class="btn btn-secondary w-100">Submit</button> 
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
