@@ -35,12 +35,12 @@
     </nav>
   <div class="container mt-5">
     <h2>Personas</h2>
-    <form>
+    <form onsubmit="registrar()">
       <div class="form-row">
         <div class="col-md-6">
           <div class="form-group">
-            <label for="selectElement">Tipo de documento</label>
-            <select id="selectElement" class="form-control">
+            <label for="tipoDocumento">Tipo de documento</label>
+            <select id="tipoDocumento" class="form-control">
               <option selected>Selecciona</option>
               <option>C.C</option>
               <option>Cedula Extranjeria</option>
@@ -51,44 +51,44 @@
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <label for="inputElement"></label>
-            <input type="text" class="form-control" id="inputElement" placeholder="numero de documento">
+            <label for="documento"></label>
+            <input type="text" class="form-control" id="documento" placeholder="Número de documento">
           </div>
         </div>
       </div>
       <div class="row mt-3"> 
         <div class="col-md-6">
           <div class="form-group">
-            <label for="inputElement2"></label>
-            <input type="text" class="form-control" id="inputElement2" placeholder="Nombres">
+            <label for="nombres"></label>
+            <input type="text" class="form-control" id="nombres" placeholder="Nombres">
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <label for="inputElement3"></label>
-            <input type="text" class="form-control" id="inputElement3" placeholder="Apellidos">
+            <label for="apellidos"></label>
+            <input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
           </div>
         </div>
       </div>
       <div class="row mt-3"> 
         <div class="col-12">
           <div class="form-group">
-            <label for="inputLong"></label>
-            <input type="text" class="form-control" id="inputLong" placeholder="dirección">
+            <label for="direccion"></label>
+            <input type="text" class="form-control" id="direccion" placeholder="Dirección">
           </div>
         </div>
       </div>
       <div class="row mt-3"> 
         <div class="col-md-6">
           <div class="form-group">
-            <label for="inputElement2"></label>
-            <input type="text" class="form-control" id="inputElement2" placeholder="Telefono">
+            <label for="telefono"></label>
+            <input type="text" class="form-control" id="telefono" placeholder="Teléfono">
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <label for="inputElement3">fecha de nacimiento</label>
-            <input type="date" class="form-control" id="inputElement3" placeholder="Enter text">
+            <label for="fechaNacimiento">Fecha de nacimiento</label>
+            <input type="date" class="form-control" id="fechaNacimiento">
           </div>
         </div>
       </div>
@@ -103,9 +103,9 @@
     </form>
   </div>
 
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="../../js/logica.js"></script>
 </body>
 </html>
