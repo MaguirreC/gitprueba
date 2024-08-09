@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Cálculo de Crédito</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="valor">Valor del Préstamo:</label>
+                    <input type="number" id="valor" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="cuotas">Número de Cuotas:</label>
+                    <input type="number" id="cuotas" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="lineaCredito">Línea de Crédito:</label>
+                    <select id="lineaCredito" class="form-control">
+                        <option value="libre">Libre Inversión (2.5% mensual)</option>
+                        <option value="libranza">Libranza (2.9% mensual)</option>
+                    </select>
+                </div>
+                <button onclick="calcularCredito()" class="btn btn-primary btn-block">Calcular</button>
+            </div>
+        </div>
+        <h2 id="resultado" class="text-center mt-4"></h2>
+    </div>
+</body>
+<script src="./ejercicio4.js"></script>
+</html>
